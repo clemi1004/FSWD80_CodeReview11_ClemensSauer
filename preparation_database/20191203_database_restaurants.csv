@@ -1,0 +1,14 @@
+pk_restaurant_id;restaurant_name;telephone_number;restaurant_type;short_description_rest;fk_location_id
+1;Gergely's;4315440767;Steakhouse;Steak, Wein, Edelbrände: Bequem sitzen und entspannt genießen – so lautet die Leitlinie für das Abendlokal Gergely’s . Das markante Gewölbe des Schlossgebäudes aus dem 14. Jahrhundert schafft ein behagliches Umfeld. Erstklassige Steaks sind hier ebenso selbstverständlich wie kompetentes und freundliches Service.;1
+2;Kopp;4313304392;Austrian;"Bin beim Kopp!
+Der Kopp, so nennen uns die Stammgäste, wird seit den frühen 1960er Jahren als Familienbetrieb geführt. Zuerst Wirtshaus dann Gasthaus aber immer bodenständig, gemütlich und ehrlich. Das ist uns auch in der 3. Generation das wichtigste Anliegen.";2
+3;Sichuan;4312633713;Chinese;"Wer Geschäftigkeit liebt
+Gleicht dem hinter den Wolken zuckenden Blitz
+Oder der im Wind flackernden Leuchte.
+Wer Untätigkeit pflegt
+Gleicht toter Asche
+Oder einem verdorrten Baum
+Sei wie der fliegende Falke, der springende Fisch
+In stehenden Wolken, in stillem Wasser:
+So begibst du dich mit Herz und Leib auf den
+Weg.";3
