@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Erstellungszeit: 04. Dez 2019 um 17:49
+-- Erstellungszeit: 05. Dez 2019 um 10:39
 -- Server-Version: 10.4.8-MariaDB
--- PHP-Version: 7.1.33
+-- PHP-Version: 7.3.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -155,10 +155,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`userId`, `userName`, `userEmail`, `userPass`, `admin`) VALUES
-(1, 'Clemens', 'clemens.sauer@gmx.net', '6f09b03e38ba9beb0dd6f35093b2498304407c9e774d202d86774ce9f2b4d0f4', b'0'),
-(2, 'Thomas', 'thomas.sauer@gmx.at', 'ecd71870d1963316a97e3ac3408c9835ad8cf0f3c1bc703527c30265534f75ae', b'0'),
+(1, 'Clemens', 'clemens.abc@test.net', '6f09b03e38ba9beb0dd6f35093b2498304407c9e774d202d86774ce9f2b4d0f4', b'0'),
 (3, 'clemens_admin', 'clemens.admin@gmx.at', 'ecd71870d1963316a97e3ac3408c9835ad8cf0f3c1bc703527c30265534f75ae', b'1'),
-(4, 'Clemens Peter', 'clemens.sauer@gmx.at', 'ecd71870d1963316a97e3ac3408c9835ad8cf0f3c1bc703527c30265534f75ae', b'0');
+(5, 'david', 'test.abc@gmx.at', 'ecd71870d1963316a97e3ac3408c9835ad8cf0f3c1bc703527c30265534f75ae', b'0');
 
 --
 -- Indizes der exportierten Tabellen
@@ -206,7 +205,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT für Tabelle `users`
 --
 ALTER TABLE `users`
-  MODIFY `userId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `userId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- Constraints der exportierten Tabellen
